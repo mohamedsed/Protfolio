@@ -1,0 +1,123 @@
+body
+{
+    background-color: #e1e1e1;
+}
+.home
+{
+    background:linear-gradient(rgba( 0,0,0,0.5 ),rgba( 0,0,0,0.5 )), url(../img/hero-bg.jpg) , 100% 100% ; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pading
+{
+    padding-top: 20%;
+    line-height: 80px;
+}
+.list_size
+{
+    font-weight: 600;
+}
+.skill
+{
+    margin-top: 50px;
+}
+.title-s
+{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.text_size
+{
+    font-size: 25px;
+}
+
+
+.ico-circle {
+    height: 100px;
+    width: 100px;
+    font-size: 4rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: 0.5s;
+}
+.ico-circle:hover
+{
+    background-color: #0078ff;
+    color: white;
+    box-shadow: 0 0 0 10px rgb(228, 228, 228);
+}
+.card-body p
+{
+    font-size: 1rem ;
+}
+.count
+{
+    background:linear-gradient(hsla(199, 96%, 50%, 0.647),hsla(199, 96%, 50%, 0.674)    ), url(../img/counters-bg.jpg) , 100% 100% ;     background-attachment: fixed;
+}
+.icon_circle {
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 5px #0078ff;
+
+}
+.haver_item
+{
+    transition: 1s;
+}
+.haver_item:hover
+{
+transform: scale(1.1);
+}
+.comment
+{
+    background:linear-gradient(hsla(199, 99%, 36%, 0.438),hsla(199, 99%, 35%, 0.46)    ), url(../img/overlay-bg.jpg) ;     background-attachment: fixed;
+ 
+}
+.icon_hover
+{
+    transition: 0.5s;
+}
+.icon_hover:hover
+{
+    color: whitesmoke;
+    background-color: #0078ff;
+}
+.end
+{
+    background-color: rgba(0, 106, 255, 0.77);
+}
+.slid p::after
+{   
+    content:"Photographer.|";
+    animation: slider 3s alternate infinite; 
+}
+@keyframes slider {
+    0%{content:"Photographe.|" ;}
+    5%{content:"Photograph.|" ;}
+    10%{content:"Photograp.|" ;}
+    15%{content:"Photogra.|" ;}
+    20%{content:"Photogr.|" ;}
+    25%{content:"Photog.|" ;}
+    30%{content:"Photo.|" ;}
+    35%{content:"Phot.|" ;}
+    40%{content:"Pho.|" ;}
+    45%{content:"Ph.|" ;}
+    50%{content:"P.|" ;}
+    55%{content:"|" ;}
+    60%{content:"." ;}
+    65%{content:".|" ;}
+    70%{content:"D.|" ;}
+    75%{content:"De.|" ;}
+    80%{content:"Des.|" ;}
+    85%{content:"Desi.|" ;}
+    90%{content:"Desig.|" ;}
+    100%{content:"Designe.|" ;}
+}
